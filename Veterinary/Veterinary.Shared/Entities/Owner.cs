@@ -29,9 +29,16 @@ namespace Veterinary.Shared.Entities
         [EmailAddress(ErrorMessage = "Digite un email valido")]
         public string Email { get; set; }
 
+
+       
+
         public string FixedPhone { get; set; }
 
+
+       
         public string addres { get; set; }
+
+       
 
         public string PhoneNumber { get; set; }
 
