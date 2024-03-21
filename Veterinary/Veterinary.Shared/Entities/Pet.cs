@@ -39,10 +39,15 @@ namespace Veterinary.Shared.Entities
 
         public string Remarks { get; set; }
 
-        public Owner  Owner { get; set; }
+        public Owner  Owners { get; set; }
 
         public ICollection<History> Historys { get; set; }   
+        
+        public PetType PetTypes { get; set; }
 
-        public PetType PetType { get; set; }
+        public ICollection<Agend> Agends { get; set; }
+
+
+
     }
 }
